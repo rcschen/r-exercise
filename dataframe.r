@@ -16,6 +16,9 @@ result <- data.frame(emp.data$emp_name,emp.data$salary)
 print(result)
 result <- emp.data[1:2,] 
 print(result)
+result <- emp.data[,2:3] 
+print(paste0('data[,2:3]',result))
+
 result <- emp.data[c(3,5),c(2,4)]
 print(result)
 emp.data$dept <- c("IT","Operations","IT","HR","Finance")

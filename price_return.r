@@ -8,9 +8,22 @@
 ###################################################################
 # Simulate a time-series of PRICES drawn from a random walk
 # where one-period returns are i.i.d. N(mu, sigma^2).
-    # gives you a 25-long series, starting with a price of 1500, where
-    # one-period returns are N(0.05,1.4^2) percent.
-
+ranrw <-function(mu, sigma, p0=100, T=100){
+   cumprod(c(p0,1+(rnorm(n=T, mean=mu, sd=sigma)/100)))
+}
+price2returns <-function(x) {
+      print(log(x))
+      100*diff(log(x))
+}
+returns2price <-function(r, p0=100) {
+    c(p0, p0*exp(cumsum(r/100)))
+}
+p <- ranrw(0.05, 1.4, p0=1500, T=25)
+print(p)
+pr<-price2returns(p)
+print(pr)
+rp<-returns2price(pr, 1500)
+print(rp)
 ###################################################################
 # II. Plenty of powerful things you can do with returns....
 ###################################################################

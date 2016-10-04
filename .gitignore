@@ -1,0 +1,6 @@
+*.log
+*.swp
+*.gen
+.RData
+.Rhistory
+r_objects.r.Rout

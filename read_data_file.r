@@ -7,7 +7,7 @@
 #        2000,1.1,13
 # To read it in --
 
-A <- read.table("data/x.data", sep=",",
+A <- read.table("D:\\study\\r\\r-exercise\\data\\x.data", sep=",",
                 col.names=c("year", "my1", "my2"))
 A
 nrow(A)                                 # Count the rows in A
@@ -28,5 +28,5 @@ print("==summary==")
 
 summary(A)
 library(Hmisc)          # This requires that you've installed the Hmisc packagei
-#contents(A)
+contents(A)
 describe(A) 

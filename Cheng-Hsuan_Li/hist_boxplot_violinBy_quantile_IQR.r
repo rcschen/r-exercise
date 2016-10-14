@@ -1,0 +1,13 @@
+boxplot(iris$Sepal.Length)
+boxplot(iris)
+boxplot(iris[3:4])
+boxplot(iris[3:4],col=c('blue','red'))
+iris$Sepal.Width
+which(iris$Sepal.Width<4)
+iris$Sepal.Width[16]
+library(psych)
+violinBy(iris[1:4])
+quantile(iris$Sepal.Length)
+IQR(iris$Sepal.Length)
+summary(iris$Sepal.Width)
+summary(iris[3:4])

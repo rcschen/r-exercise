@@ -25,5 +25,6 @@ Interquartile Range:  1. order sequence
                                Q1=Md( 12 14 15 17 19 20 22 25) = (17+19)/2 = 18
                                Q4=Md( 29 30 31 33 35 37 39 40) = (33+35)/2 = 34
                                QD = 34 - 18 = 16
-Standard Deviation: 1/n(SUM_i(x_i - mean(X))^2)  => 1/n(sum of square(distance))
+Standard Deviation: 1/n(sum_i(x_i-mean(X))^2), means average of sum of square(distance)
+                    degree of freedom =>  (1/(n-1))(sum_i(x_i-mean(X))^2)
                        

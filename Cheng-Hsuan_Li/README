@@ -27,4 +27,12 @@ Interquartile Range:  1. order sequence
                                QD = 34 - 18 = 16
 Standard Deviation: 1/n(sum_i(x_i-mean(X))^2), means average of sum of square(distance)
                     degree of freedom =>  (1/(n-1))(sum_i(x_i-mean(X))^2)
-                       
+                      
+
+=============================================================================================
+
+
+Sampling: simple random sampling, stratified sampling, cluster sampling, systematic sampling
+          stratified sampling: samples in the same stratify are similar, in different stratify are not alike
+          cluster sampling: samples in different cluster are similar, in the same cluster are not alike
+          systematic sampling: sampling per a number of object ex 1/1000

@@ -36,3 +36,12 @@ Sampling: simple random sampling, stratified sampling, cluster sampling, systema
           stratified sampling: samples in the same stratify are similar, in different stratify are not alike
           cluster sampling: samples in different cluster are similar, in the same cluster are not alike
           systematic sampling: sampling per a number of object ex 1/1000
+          
+==============================================================================================
+#sample < 30, use T transfer
+1. get average of samples X, mean(x)
+2. get SD(X) =  sqrt((1/df(x))(sum((x-mean(X))^2))
+3. get SE(mean(X)) = SD(X)/sqrt(n)
+4. get margin of error (MoE), use T table 
+5. confidence interval mean(X) - MoE*SE(mean(X)) <= mean(population) <= mean(X) + MoE*SE(mean(X))
+ 

@@ -47,3 +47,4 @@ Sampling: simple random sampling, stratified sampling, cluster sampling, systema
  
 中央極限定理: 對於一個母體(假設分布參數為 m_p, sd_p)，對於母體一直抽樣n產生多個平均X，則X將成為一個normal distribution
 其E(X)為m_p, sd(X)= sd_p/sqrt(n)，若母體為normal distribution，抽樣大小無關，若母體非normal distribution，則抽樣大小n需大於30
+可使用Z test: (E(X)-m_p)/sd(X)

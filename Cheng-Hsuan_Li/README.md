@@ -6,11 +6,14 @@ https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
 - quantile:  
 
   | 0%  | 25% | 50% | 75% | 100% |
+  | --- |----| -----|-----|------|
   | 4.3 | 5.1 | 5.8 | 6.4 | 7.9  |
   
 - IQR: Q3-Q1=1.3
 - summary(iris$Sepal.Width):  
+
   | Min. | 1st Qu. | Median | Mean | 3rd Qu. | Max. |
+  | ---- |---------| -------|------|---------|------|
   |2.000 | 2.800   | 3.000  | 3.057| 3.300   |4.400 |
 
 =============================================================================================
@@ -69,3 +72,8 @@ Z test: (p_hat-p)/sqrt(p(1-p)/n)
 - 兩個獨立母體的檢定
   1. 母體:
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |

@@ -41,9 +41,10 @@ https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
 
 
 Sampling: simple random sampling, stratified sampling, cluster sampling, systematic sampling
-          stratified sampling: samples in the same stratify are similar, in different stratify are not alike
-          cluster sampling: samples in different cluster are similar, in the same cluster are not alike
-          systematic sampling: sampling per a number of object ex 1/1000
+
+          2. stratified sampling: samples in the same stratify are similar, in different stratify are not alike
+          3. cluster sampling: samples in different cluster are similar, in the same cluster are not alike
+          4. systematic sampling: sampling per a number of object ex 1/1000
           
 ==============================================================================================
 #sample < 30, use T transfer to find confidence interval of sample average 
@@ -72,8 +73,4 @@ Z test: (p_hat-p)/sqrt(p(1-p)/n)
 - 兩個獨立母體的檢定
   1. 母體:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+

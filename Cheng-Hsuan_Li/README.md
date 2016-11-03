@@ -1,5 +1,4 @@
-https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
-=============================================================================================
+[reference](https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl)
 
 - boxpolt: max, min, Q1, Q3, median, outliner
 - violineBy: max, min, Q1, Q3, median, outliner, mean
@@ -16,7 +15,7 @@ https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
   | ---- |---------| -------|------|---------|------|
   |2.000 | 2.800   | 3.000  | 3.057| 3.300   |4.400 |
 
-=============================================================================================
+
 
 - Range: max - min
 - Interquartile Range:  
@@ -37,8 +36,6 @@ https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
                     degree of freedom =>  (1/(n-1))(sum_i(x_i-mean(X))^2)
                       
 
-=============================================================================================
-
 
 Sampling: simple random sampling, stratified sampling, cluster sampling, systematic sampling
 
@@ -46,7 +43,7 @@ Sampling: simple random sampling, stratified sampling, cluster sampling, systema
           3. cluster sampling: samples in different cluster are similar, in the same cluster are not alike
           4. systematic sampling: sampling per a number of object ex 1/1000
           
-==============================================================================================
+
 #sample < 30, use T transfer to find confidence interval of sample average 
 1. get average of samples X, mean(x)
 2. get SD(X) =  sqrt((1/df(x))(sum((x-mean(X))^2))
@@ -69,7 +66,7 @@ Sampling: simple random sampling, stratified sampling, cluster sampling, systema
 Z test: (p_hat-p)/sqrt(p(1-p)/n)
 ```
 - Test variance (sd^2) 卡方分布....
-==============================================================================================
+
 - 兩個獨立母體的檢定
   1. 母體:
 

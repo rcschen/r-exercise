@@ -44,7 +44,7 @@ Sampling: simple random sampling, stratified sampling, cluster sampling, systema
           4. systematic sampling: sampling per a number of object ex 1/1000
           
 
-#sample < 30, use T transfer to find confidence interval of sample average 
+- sample < 30, use T transfer to find confidence interval of sample average 
 1. get average of samples X, mean(x)
 2. get SD(X) =  sqrt((1/df(x))(sum((x-mean(X))^2))
 3. get SE(mean(X)) = SD(X)/sqrt(n)

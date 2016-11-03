@@ -68,6 +68,13 @@ Z test: (p_hat-p)/sqrt(p(1-p)/n)
 - Test variance (sd^2) 卡方分布....
 
 - 兩個獨立母體的檢定
-  1. 母體:
+
+  1. 母體1: X_1為成功個數，p_hat_1為成功比例
+  2. 母體2: X_2為成功個數，p_hat_2為成功比例
+  3. 兩母體的比率差距估計: p_hat_1 - p_hat_2
+  4. p_hat_1 - p_hat_2的平均數: E(p_hat_1 - p_hat_2) = p_1 - p_2
+  5. variance: sd^2(p_hat_1 - p_hat_2) = sd^2(p_1) + sd^2(p_2) = p_1(1-p_1)/n1 + p_2(1-p_2)/n2
+  6. sd: sqrt(variance)
+  7. when n_i\*p_i > 5 && n_i\*(1-p_i) > 5, p_hat_1 - p_hat_2近似常態分佈
 
 

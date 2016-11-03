@@ -37,7 +37,7 @@
                       
 
 
-Sampling: simple random sampling, stratified sampling, cluster sampling, systematic sampling
+- Sampling: simple random sampling, stratified sampling, cluster sampling, systematic sampling
 
           2. stratified sampling: samples in the same stratify are similar, in different stratify are not alike
           3. cluster sampling: samples in different cluster are similar, in the same cluster are not alike

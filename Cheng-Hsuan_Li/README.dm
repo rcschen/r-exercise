@@ -6,7 +6,6 @@ https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
 - quantile:  
 
   | 0%  | 25% | 50% | 75% | 100% |
-  |-----|-----|-----|-----|------|
   | 4.3 | 5.1 | 5.8 | 6.4 | 7.9  |
   
 - IQR: Q3-Q1=1.3
@@ -16,21 +15,22 @@ https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
 
 =============================================================================================
 
-Range: max - min
-Interquartile Range:  1. order sequence
-                      2. find the median
-                      3. get two groups(small and large) by the median(no the median included)
-                      4. find the median of the small group(Q1)
-                      5. find the median of the large group(Q3)
-                      6. Interquartile Range(Qd or IQR) = Q3 - Q1
-                      Example: Find IRQ of 25,22,29,12,40,15,14,39,37,31,33,19,17,20,35,30
-                               sort: 12 14 15 17 19 20 22 25 29 30 31 33 35 37 39 40
-                               (16+1)/2=8.5 > (8, 9) => (25 29)
-                               Md=(25+29)/2 = 27
-                               Q1=Md( 12 14 15 17 19 20 22 25) = (17+19)/2 = 18
-                               Q4=Md( 29 30 31 33 35 37 39 40) = (33+35)/2 = 34
-                               QD = 34 - 18 = 16
-Standard Deviation: 1/n(sum_i(x_i-mean(X))^2), means average of sum of square(distance)
+- Range: max - min
+- Interquartile Range:  
+  1. order sequence
+  2. find the median
+  3. get two groups(small and large) by the median(no the median included)
+  4. find the median of the small group(Q1)
+  5. find the median of the large group(Q3)
+  6. Interquartile Range(Qd or IQR) = Q3 - Q1
+  Example: Find IRQ of 25,22,29,12,40,15,14,39,37,31,33,19,17,20,35,30
+           sort: 12 14 15 17 19 20 22 25 29 30 31 33 35 37 39 40
+           (16+1)/2=8.5 > (8, 9) => (25 29)
+           Md=(25+29)/2 = 27
+           Q1=Md( 12 14 15 17 19 20 22 25) = (17+19)/2 = 18
+           Q4=Md( 29 30 31 33 35 37 39 40) = (33+35)/2 = 34
+           QD = 34 - 18 = 16
+- Standard Deviation: 1/n(sum_i(x_i-mean(X))^2), means average of sum of square(distance)
                     degree of freedom =>  (1/(n-1))(sum_i(x_i-mean(X))^2)
                       
 

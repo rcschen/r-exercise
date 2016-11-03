@@ -75,5 +75,6 @@ Z test: (p_hat-p)/sqrt(p(1-p)/n)
   5. variance: sd^2(p_hat_1 - p_hat_2) = sd^2(p_1) + sd^2(p_2) = p_1(1-p_1)/n1 + p_2(1-p_2)/n2
   6. sd: sqrt(variance)
   7. when n_i\*p_i > 5 && n_i\*(1-p_i) > 5, p_hat_1 - p_hat_2近似常態分佈
+  8. p_1 -p_2的信賴區間: p_hat_1 - p_hat_2 +- Z\*SE(p_hat_1 - p_hat_2)
 
 

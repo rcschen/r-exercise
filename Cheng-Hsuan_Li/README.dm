@@ -1,13 +1,18 @@
 https://www.youtube.com/playlist?list=PLt0SBi1p7xrRCD6BGbDyCrf0mZm1hHJEl
 =============================================================================================
 
-boxpolt: max, min, Q1, Q3, median, outliner
-violineBy: max, min, Q1, Q3, median, outliner, mean
-quantile:  0%   25%  50%  75% 100% 
-           4.3  5.1  5.8  6.4  7.9 
-IQR: Q3-Q1=1.3
-summary(iris$Sepal.Width):  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-                          2.000   2.800   3.000   3.057   3.300   4.400 
+- boxpolt: max, min, Q1, Q3, median, outliner
+- violineBy: max, min, Q1, Q3, median, outliner, mean
+- quantile:  
+
+  | 0%  | 25% | 50% | 75% | 100% |
+  |-----|-----|-----|-----|------|
+  | 4.3 | 5.1 | 5.8 | 6.4 | 7.9  |
+  
+- IQR: Q3-Q1=1.3
+- summary(iris$Sepal.Width):  
+  | Min. | 1st Qu. | Median | Mean | 3rd Qu. | Max. |
+  |2.000 | 2.800   | 3.000  | 3.057| 3.300   |4.400 |
 
 =============================================================================================
 
@@ -57,3 +62,11 @@ Test p:
 Z test: (p_hat-p)/sqrt(p(1-p)/n)
 
 Test variance (sd^2) 卡方分布....
+==============================================================================================
+- 兩個獨立母體的檢定
+  1. 母體:
+  
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
